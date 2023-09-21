@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+.bg-hero{
+    background-image: url('/banner-f-4.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 710px;
+}
+
+.text-hero{
+    line-height: 1;
+    font-family: 'Lato', sans-serif;
+}
+
+.text-hero.p1{
+    color:#1b3b92 ;
+    font-weight: 700;
+    font-size: 40px; 
+}
+
+.text-hero.p2{
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.text-hero.p3{
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.text-context{
+    /* padding-top: 10rem;
+    padding-bottom: 10rem; */
+
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+@media (min-width:575px) {
+    .bg-hero{
+        background-image: url('/banner-f-3.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 760px;
+    }
+    .text-context{
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+    }
+}
+
+@media (min-width:768px) {
+    .bg-hero{
+        background-image: url('/banner-f-2.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 850px;
+    }
+}
+
+@media (min-width:977px) {
+    .bg-hero{
+        background-image: url('/banner-f.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 80% center;
+        height: 600px;
+    }
+    .text-hero.p1{
+        font-size: 45px; 
+    }
+    
+    .text-hero.p2{
+        font-size: 45px;
+        letter-spacing: 2px;
+    }
+    .text-context{
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+}
+
+@media (min-width:1200px) {
+    .bg-hero{
+        background-image: url('/banner-f.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 788px;
+    }
+    .text-context{
+        padding-top: 16rem/* 192px */;
+        padding-bottom: 16rem/* 192px */
+    }
+    .text-hero.p1{
+        font-size: 50px; 
+    }
+    
+    .text-hero.p2{
+        font-size: 50px;
+        letter-spacing: 2px;
+    }
+}
